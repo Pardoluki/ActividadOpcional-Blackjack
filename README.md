@@ -23,5 +23,4 @@ El proyecto está organizado en cuatro archivos principales:
 4. El juego termina si os pasáis de 21 tú o, posteriormente, la banca, o designando un ganador comparando el puntaje del usuario y la banca.
 
 
-
-## 🚀 ¡Que lo disfrutes!
+🚀 ¡Que lo disfrutes!
