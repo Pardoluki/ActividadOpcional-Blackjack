@@ -22,13 +22,20 @@ public class Baraja
         { "K", 10 }
     };
 
+    private Random random = new Random(); // Clase que aleatoriza las cartas que salen en el juego     
+
     // Creamos una lista para juntar palos con números, creando así las cartas
     private List<(string carta, int valor)> barajaCartas = new List<(string, int)>();
 
     // Constructor para generar la baraja
     public Baraja()
     {
-        // Generamos las combinaciones de cartas con sus valores
+        GenerarBaraja();
+    }
+
+    // Generamos las combinaciones de cartas con sus valores 
+    private void GenerarBaraja()
+    {
         foreach (string palo in palosCartas)
         {
             foreach (string numero in numerosCartas)
@@ -39,13 +46,17 @@ public class Baraja
         }
     }
 
-    // Método para mostrar la baraja con sus valores
-    public void MostrarBaraja()
+    public (string carta, int valor) SacarCarta()
     {
-        for (int i = 0; i < barajaCartas.Count; i++)
+        while (true)
         {
-           Console.WriteLine($"Carta: {barajaCartas[i].carta} - Valor: {barajaCartas[i].valor}");
-
-        }        
+            int indice = random.Next(barajaCartas.Count);
+            if (barajaCartas[indice].carta != "") // Verifica que la carta no ha sido retirada
+            {
+                var cartaSeleccionada = barajaCartas[indice];
+                barajaCartas[indice] = ("", 0); // Marca la carta como usada
+                return cartaSeleccionada;
+            }
+        }
     }
 }

@@ -12,3 +12,18 @@ C:\Users\lucas\CFGS UE  Desarrollo de Aplicaciones Web\Proyectos VSCode\Fundamen
 C:\Users\lucas\CFGS UE  Desarrollo de Aplicaciones Web\Proyectos VSCode\Fundamentos de Programación\blackjack - version de trasteo\blackjack\obj\Debug\net8.0\blackjack.pdb
 C:\Users\lucas\CFGS UE  Desarrollo de Aplicaciones Web\Proyectos VSCode\Fundamentos de Programación\blackjack - version de trasteo\blackjack\obj\Debug\net8.0\blackjack.genruntimeconfig.cache
 C:\Users\lucas\CFGS UE  Desarrollo de Aplicaciones Web\Proyectos VSCode\Fundamentos de Programación\blackjack - version de trasteo\blackjack\obj\Debug\net8.0\ref\blackjack.dll
+C:\Users\lucas\CFGS UE  Desarrollo de Aplicaciones Web\GitHub\Otros proyectos\ActividadOpcional-Blackjack\blackjack\blackjack\bin\Debug\net8.0\blackjack.exe
+C:\Users\lucas\CFGS UE  Desarrollo de Aplicaciones Web\GitHub\Otros proyectos\ActividadOpcional-Blackjack\blackjack\blackjack\bin\Debug\net8.0\blackjack.deps.json
+C:\Users\lucas\CFGS UE  Desarrollo de Aplicaciones Web\GitHub\Otros proyectos\ActividadOpcional-Blackjack\blackjack\blackjack\bin\Debug\net8.0\blackjack.runtimeconfig.json
+C:\Users\lucas\CFGS UE  Desarrollo de Aplicaciones Web\GitHub\Otros proyectos\ActividadOpcional-Blackjack\blackjack\blackjack\bin\Debug\net8.0\blackjack.dll
+C:\Users\lucas\CFGS UE  Desarrollo de Aplicaciones Web\GitHub\Otros proyectos\ActividadOpcional-Blackjack\blackjack\blackjack\bin\Debug\net8.0\blackjack.pdb
+C:\Users\lucas\CFGS UE  Desarrollo de Aplicaciones Web\GitHub\Otros proyectos\ActividadOpcional-Blackjack\blackjack\blackjack\obj\Debug\net8.0\blackjack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\CFGS UE  Desarrollo de Aplicaciones Web\GitHub\Otros proyectos\ActividadOpcional-Blackjack\blackjack\blackjack\obj\Debug\net8.0\blackjack.AssemblyInfoInputs.cache
+C:\Users\lucas\CFGS UE  Desarrollo de Aplicaciones Web\GitHub\Otros proyectos\ActividadOpcional-Blackjack\blackjack\blackjack\obj\Debug\net8.0\blackjack.AssemblyInfo.cs
+C:\Users\lucas\CFGS UE  Desarrollo de Aplicaciones Web\GitHub\Otros proyectos\ActividadOpcional-Blackjack\blackjack\blackjack\obj\Debug\net8.0\blackjack.csproj.CoreCompileInputs.cache
+C:\Users\lucas\CFGS UE  Desarrollo de Aplicaciones Web\GitHub\Otros proyectos\ActividadOpcional-Blackjack\blackjack\blackjack\obj\Debug\net8.0\blackjack.sourcelink.json
+C:\Users\lucas\CFGS UE  Desarrollo de Aplicaciones Web\GitHub\Otros proyectos\ActividadOpcional-Blackjack\blackjack\blackjack\obj\Debug\net8.0\blackjack.dll
+C:\Users\lucas\CFGS UE  Desarrollo de Aplicaciones Web\GitHub\Otros proyectos\ActividadOpcional-Blackjack\blackjack\blackjack\obj\Debug\net8.0\refint\blackjack.dll
+C:\Users\lucas\CFGS UE  Desarrollo de Aplicaciones Web\GitHub\Otros proyectos\ActividadOpcional-Blackjack\blackjack\blackjack\obj\Debug\net8.0\blackjack.pdb
+C:\Users\lucas\CFGS UE  Desarrollo de Aplicaciones Web\GitHub\Otros proyectos\ActividadOpcional-Blackjack\blackjack\blackjack\obj\Debug\net8.0\blackjack.genruntimeconfig.cache
+C:\Users\lucas\CFGS UE  Desarrollo de Aplicaciones Web\GitHub\Otros proyectos\ActividadOpcional-Blackjack\blackjack\blackjack\obj\Debug\net8.0\ref\blackjack.dll
