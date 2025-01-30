@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\CFGS UE  Desarrollo de Aplicaciones Web\\GitHub\\Otros proyectos\\ActividadOpcional-Blackjack\\blackjack\\blackjack\\blackjack.csproj": {}
+    "C:\\Users\\lucas\\CFGS UE  Desarrollo de Aplicaciones Web\\Proyectos VSCode\\Fundamentos de Programación\\blackjack - version de trasteo\\blackjack\\blackjack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\CFGS UE  Desarrollo de Aplicaciones Web\\GitHub\\Otros proyectos\\ActividadOpcional-Blackjack\\blackjack\\blackjack\\blackjack.csproj": {
+    "C:\\Users\\lucas\\CFGS UE  Desarrollo de Aplicaciones Web\\Proyectos VSCode\\Fundamentos de Programación\\blackjack - version de trasteo\\blackjack\\blackjack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\CFGS UE  Desarrollo de Aplicaciones Web\\GitHub\\Otros proyectos\\ActividadOpcional-Blackjack\\blackjack\\blackjack\\blackjack.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\CFGS UE  Desarrollo de Aplicaciones Web\\Proyectos VSCode\\Fundamentos de Programación\\blackjack - version de trasteo\\blackjack\\blackjack.csproj",
         "projectName": "blackjack",
-        "projectPath": "C:\\Users\\lucas\\CFGS UE  Desarrollo de Aplicaciones Web\\GitHub\\Otros proyectos\\ActividadOpcional-Blackjack\\blackjack\\blackjack\\blackjack.csproj",
+        "projectPath": "C:\\Users\\lucas\\CFGS UE  Desarrollo de Aplicaciones Web\\Proyectos VSCode\\Fundamentos de Programación\\blackjack - version de trasteo\\blackjack\\blackjack.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\CFGS UE  Desarrollo de Aplicaciones Web\\GitHub\\Otros proyectos\\ActividadOpcional-Blackjack\\blackjack\\blackjack\\obj\\",
+        "outputPath": "C:\\Users\\lucas\\CFGS UE  Desarrollo de Aplicaciones Web\\Proyectos VSCode\\Fundamentos de Programación\\blackjack - version de trasteo\\blackjack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config"
