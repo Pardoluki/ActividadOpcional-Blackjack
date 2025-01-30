@@ -1,5 +1,3 @@
-using System;
-
 public class ProcesoJugador
 {
     private Baraja baraja;
