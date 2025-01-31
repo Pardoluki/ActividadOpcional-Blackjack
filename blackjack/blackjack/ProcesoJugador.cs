@@ -12,7 +12,7 @@ public class ProcesoJugador
 
     public int IniciarJuego()
     {
-        Console.WriteLine("¡Bienvenido al Blackjack de Omar y Lucas!");
+        Console.WriteLine("\n¡Bienvenido al Blackjack de Omar y Lucas!");
         Console.WriteLine("Aquí tienes tus cartas:");
 
         // Dar dos cartas iniciales
@@ -26,11 +26,14 @@ public class ProcesoJugador
             {
                 Console.WriteLine($"Tu carta es: {cartasJugador[i].carta}, valor: {cartasJugador[i].valor}");
             }
+            if (totalPuntos == 21)
+            {
+                return totalPuntos; // Si el jugador obtiene blackjack, gana automáticamente
+            }
             Console.WriteLine($"Total de puntos: {totalPuntos}");
             Console.WriteLine("\n¿Qué deseas hacer? (1) Pedir carta (2) Plantarse");
             string opcion = Console.ReadLine();
             Console.WriteLine();
-
             if (opcion == "1")
             {
                 DarCarta();
@@ -40,19 +43,16 @@ public class ProcesoJugador
                     {
                         Console.WriteLine($"Tu carta es: {cartasJugador[i].carta}, valor: {cartasJugador[i].valor}");
                     }
-                    Console.WriteLine($"Total de puntos: {totalPuntos}");
-                    Console.WriteLine("\nTe has pasado de 21. ¡Has perdido!");
                     return totalPuntos;
                 }
                 else if (totalPuntos == 21)
                 {
-                    Console.WriteLine("\n¡Has alcanzado 21! Finalizando turno...");
-                    return totalPuntos;
+                    return totalPuntos; // Si el jugador obtiene blackjack, gana automáticamente
                 }
             }
             else if (opcion == "2")
             {
-                Console.WriteLine($"\nTe has plantado con {totalPuntos} puntos.");
+                Console.WriteLine($"Te has plantado con {totalPuntos} puntos. Finalizando turno...");
                 return totalPuntos;
             }
             else
@@ -62,10 +62,9 @@ public class ProcesoJugador
 
         } while (totalPuntos < 21);
 
-        // Si el bucle se rompe, devolver el total de puntos como seguridad.
+        // Si se rompe el bucle, igualmente devolvemos el total de puntos
         return totalPuntos;
     }
-
 
     private void DarCarta()
     {

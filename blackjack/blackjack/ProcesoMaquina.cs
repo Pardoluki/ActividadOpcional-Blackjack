@@ -14,15 +14,14 @@ public class ProcesoMaquina
 
     public int IniciarJuego()
     {
-        Console.WriteLine("Ahora es el turno de la banca");
+        Console.WriteLine("\nAhora es el turno de la banca. ¡Buena suerte!");
         while (totalPuntos < 17)
         {
-            for (int i = 0; i < cartasMaquina.Count; i++)
-            {
-                Console.WriteLine($"Tu carta es: {cartasMaquina[i].carta}, valor: {cartasMaquina[i].valor}");
-            }
-            Console.WriteLine($"Total de puntos: {totalPuntos}");
             DarCarta();
+        }
+        for (int i = 0; i < cartasMaquina.Count; i++)
+        {
+            Console.WriteLine($"La banca ha obtenido: {cartasMaquina[i].carta}, valor: {cartasMaquina[i].valor}");
         }
         return totalPuntos;
 
@@ -33,8 +32,4 @@ public class ProcesoMaquina
         cartasMaquina.Add(cartaSeleccionada);
         totalPuntos += cartaSeleccionada.valor;
     }
-
-
-
-
 }

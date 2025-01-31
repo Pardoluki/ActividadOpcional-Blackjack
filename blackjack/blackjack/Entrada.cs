@@ -2,41 +2,56 @@ class Program
 {
     public static void Main(string[] args)
     {
-        // Creamos un objeto para manejar el proceso del jugador
-        ProcesoJugador procesoJugador = new ProcesoJugador();
-
-        // El usuario comienza a jugar hasta pasarse de 21 puntos o plantarse
-        int resultadoJugador = procesoJugador.IniciarJuego();
-        Console.WriteLine($"Resultado Jugador: {resultadoJugador}");
-
-        ProcesoMaquina procesoMaquina = new ProcesoMaquina();
-
-        // Evaluar resultado del jugador antes de iniciar la banca
-        if (resultadoJugador > 21)
+        int repetirPartida;
+        do
         {
-            Console.WriteLine("Te has pasado de 21 puntos. Ha ganado la banca.");
-        }
-        else
-        {
-            int resultadoMaquina = procesoMaquina.IniciarJuego();
-            Console.WriteLine($"Resultado Máquina: {resultadoMaquina}");
+            // Creamos un objeto para manejar el proceso del jugador
+            ProcesoJugador procesoJugador = new ProcesoJugador();
+            // Creamos un objeto para manejar el proceso de la banca
+            ProcesoMaquina procesoMaquina = new ProcesoMaquina();
 
-            if (resultadoMaquina > 21)
+            // El usuario comienza a jugar hasta pasarse de 21 puntos o plantarse
+            int resultadoJugador = procesoJugador.IniciarJuego();
+
+            // Evaluamos el resultado del jugador antes de iniciar la banca
+            if (resultadoJugador > 21)
             {
-                Console.WriteLine("La banca se ha pasado de 21 puntos. ¡Has ganado la partida, felicidades!");
+                Console.WriteLine($"Total de puntos: {resultadoJugador}");
+                Console.WriteLine("Te has pasado de 21 puntos. Ha ganado la banca. ¡Qué pena!");
             }
-            else if (resultadoMaquina == resultadoJugador)
+            else if (resultadoJugador == 21)
             {
-                Console.WriteLine("Empate. La banca gana por reglas del casino.");
-            }
-            else if (resultadoJugador > resultadoMaquina)
-            {
-                Console.WriteLine("¡Has ganado la partida, felicidades!");
+                Console.WriteLine($"Total de puntos: {resultadoJugador}");
+                Console.WriteLine("¡Has conseguido un blackjack! Has ganado automáticamente. ¡Enhorabuena!");
             }
             else
             {
-                Console.WriteLine("Ha ganado la banca.");
+                int resultadoMaquina = procesoMaquina.IniciarJuego();
+                Console.WriteLine($"Total de puntos: {resultadoMaquina}");
+
+                if (resultadoMaquina > 21)
+                {
+                    Console.WriteLine("\nLa banca se ha pasado de 21 puntos. ¡Has ganado la partida, felicidades!");
+                }
+                else if (resultadoMaquina == resultadoJugador)
+                {
+                    Console.WriteLine("\nEmpate. El dinero de su apuesta le será devuelto");
+                }
+                else if (resultadoJugador > resultadoMaquina)
+                {
+                    Console.WriteLine("\nHas conseguido más puntos que la banca. ¡Has ganado la partida, felicidades!");
+                }
+                else
+                {
+                    Console.WriteLine("\nHas conseguido menos puntos que la banca. Ha ganado la banca. ¡Qué pena!");
+                }
             }
-        }
+            do
+            {
+                Console.WriteLine("\n¿Te gustaría volver a jugar una partida?\nSí: Envía 1        No: Envía 2");
+                repetirPartida = Convert.ToInt16(Console.ReadLine());
+            } while (repetirPartida != 1 && repetirPartida != 2);
+        } while (repetirPartida == 1);
+        Console.WriteLine("\nGracias por jugar a nuestro blackjack. ¡Vuelva pronto!");
     }
 }
