@@ -19,8 +19,9 @@ El proyecto está organizado en cuatro archivos principales:
    - **Pedir carta** (`1`): Recibes otra carta y se suma su valor.
      - Si te pasas de 21 puntos, pierdes automáticamente.
      - Se vuelve a mostrar el menú para seguir jugando.
-   - **Plantarte** (`2`): Terminas tu turno y pasas el control a la banca (pendiente de implementación).
-4. El juego termina si os pasáis de 21 tú o, posteriormente, la banca, o designando un ganador comparando el puntaje del usuario y la banca.
+   - **Plantarte** (`2`): Terminas tu turno y pasas el control a la banca.
+4.La banca empieza a jugar de manera automática, sacando cartas hasta llegar a un mínimo de 17 puntos.
+5. El juego termina si os pasáis de 21 tú o, posteriormente, la banca, o designando un ganador comparando el puntaje del usuario y la banca.
 
 
 🚀 ¡Que lo disfrutes!
