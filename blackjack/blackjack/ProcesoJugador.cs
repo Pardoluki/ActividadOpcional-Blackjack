@@ -10,7 +10,7 @@ public class ProcesoJugador
         totalPuntos = 0;
     }
 
-    public void IniciarJuego()
+    public int IniciarJuego()
     {
         Console.WriteLine("¡Bienvenido al Blackjack de Omar y Lucas!");
         Console.WriteLine("Aquí tienes tus cartas:");
@@ -20,7 +20,7 @@ public class ProcesoJugador
         DarCarta();
 
         // Menú iterativo
-        while (totalPuntos < 21)
+        do
         {
             for (int i = 0; i < cartasJugador.Count; i++)
             {
@@ -30,6 +30,7 @@ public class ProcesoJugador
             Console.WriteLine("\n¿Qué deseas hacer? (1) Pedir carta (2) Plantarse");
             string opcion = Console.ReadLine();
             Console.WriteLine();
+
             if (opcion == "1")
             {
                 DarCarta();
@@ -41,20 +42,30 @@ public class ProcesoJugador
                     }
                     Console.WriteLine($"Total de puntos: {totalPuntos}");
                     Console.WriteLine("\nTe has pasado de 21. ¡Has perdido!");
-                    return;
+                    return totalPuntos;
+                }
+                else if (totalPuntos == 21)
+                {
+                    Console.WriteLine("\n¡Has alcanzado 21! Finalizando turno...");
+                    return totalPuntos;
                 }
             }
             else if (opcion == "2")
             {
                 Console.WriteLine($"\nTe has plantado con {totalPuntos} puntos.");
-                return;
+                return totalPuntos;
             }
             else
             {
                 Console.WriteLine("\nOpción no válida. Inténtalo de nuevo.");
             }
-        }
+
+        } while (totalPuntos < 21);
+
+        // Si el bucle se rompe, devolver el total de puntos como seguridad.
+        return totalPuntos;
     }
+
 
     private void DarCarta()
     {

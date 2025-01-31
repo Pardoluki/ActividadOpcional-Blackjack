@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\CFGS UE  Desarrollo de Aplicaciones Web\\GitHub\\Otros proyectos\\ActividadOpcional-Blackjack\\blackjack\\blackjack\\blackjack.csproj": {}
+    "/Users/omaralexandreplanaafonso/Downloads/ActividadOpcional-Blackjack/blackjack/blackjack/blackjack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\CFGS UE  Desarrollo de Aplicaciones Web\\GitHub\\Otros proyectos\\ActividadOpcional-Blackjack\\blackjack\\blackjack\\blackjack.csproj": {
+    "/Users/omaralexandreplanaafonso/Downloads/ActividadOpcional-Blackjack/blackjack/blackjack/blackjack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\CFGS UE  Desarrollo de Aplicaciones Web\\GitHub\\Otros proyectos\\ActividadOpcional-Blackjack\\blackjack\\blackjack\\blackjack.csproj",
+        "projectUniqueName": "/Users/omaralexandreplanaafonso/Downloads/ActividadOpcional-Blackjack/blackjack/blackjack/blackjack.csproj",
         "projectName": "blackjack",
-        "projectPath": "C:\\Users\\lucas\\CFGS UE  Desarrollo de Aplicaciones Web\\GitHub\\Otros proyectos\\ActividadOpcional-Blackjack\\blackjack\\blackjack\\blackjack.csproj",
-        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\CFGS UE  Desarrollo de Aplicaciones Web\\GitHub\\Otros proyectos\\ActividadOpcional-Blackjack\\blackjack\\blackjack\\obj\\",
+        "projectPath": "/Users/omaralexandreplanaafonso/Downloads/ActividadOpcional-Blackjack/blackjack/blackjack/blackjack.csproj",
+        "packagesPath": "/Users/omaralexandreplanaafonso/.nuget/packages/",
+        "outputPath": "/Users/omaralexandreplanaafonso/Downloads/ActividadOpcional-Blackjack/blackjack/blackjack/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/omaralexandreplanaafonso/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
